@@ -6,7 +6,7 @@ $(document).ready(function(){
 			navigator.notification.beep(1);	
 		});//Cierre de tap b1
 			$('#b2').tap(function(){
-			navigator.notification.vibration(1);	
+			navigator.notification.vibrate(1);	
 		});
 	}); //Cierre de deviceready
 });// Cierre de ready
